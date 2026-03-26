@@ -3,8 +3,6 @@ from random import randrange
 
 class Client:
     def create_client(data):
-        print(data.get("name"))
-
         if not data.get('name'):
             raise InvalidFormBody
 
