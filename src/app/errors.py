@@ -3,3 +3,6 @@ class InvalidFormBody(Exception):
 
 class NotFound(Exception):
     pass
+
+class UserAlreadyExists(Exception):
+    pass
